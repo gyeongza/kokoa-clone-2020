@@ -5,9 +5,12 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
+@import "./components/point.css";
 /* Screen */
 @import "./screen/login.css";
 @import "./screen/friend.css";
+@import "./screen/find.css";
 
 body {
   font-family: Arial, sans-serif;
@@ -21,4 +24,13 @@ input:focus {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.main-screen {
+  padding: 0 var(--horizental-space);
+  height: 110vh;
+}
+
+.screen-header__icons span {
+  position: relative;
 }
