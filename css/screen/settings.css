@@ -1,0 +1,19 @@
+.settigns__setting {
+    padding:20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settigns__setting i {
+    opacity: .9;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settigns__setting-column:last-child {
+    opacity: .6;
+}
+

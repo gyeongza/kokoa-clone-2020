@@ -61,6 +61,17 @@
   display: block;
 }
 
+.user-component__text {
+  position: relative;
+}
+
+.user-component__text span {
+  position: absolute;
+  bottom: 1px;
+  right: -20px;
+  color: tomato;
+}
+
 
 
 
