@@ -46,8 +46,48 @@
 
     <!--USER COMPONENT-->
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Thursday, July 8, 2021</div>
 
+      <div class="message-row">
+        <img
+          src="https://avatars.githubusercontent.com/u/62369936?s=400&u=0be0452396301404f739e3543a0c114eefe5e07b&v=4"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">Aiden Park</span>
+          <div class="message__info">
+            <span class="message__bubble">하이~ Hi~</span>
+            <span class="message__time">15:03</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">ㅎㅇㅎㅇ</span>
+            <span class="message__time">15:04</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="relpy__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력해주세요." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>모바일 환경에서 접속해주세요!</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/60eb7b1fcf.js"
       crossorigin="anonymous"

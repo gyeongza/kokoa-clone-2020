@@ -99,9 +99,32 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform:none;
+    }
+    50% {
+        color: tomato;
+        transform: rotateY(360deg);
+    }
+    100% {
+        color: white;
+        transform:none;
+    }
 }
 
 .open-post__heart-count span {
     margin-left: 3px;
+    
 }
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
+

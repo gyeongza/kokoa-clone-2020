@@ -9,7 +9,7 @@
 @import "./components/point.css";
 @import "./components/icon-row.css";
 @import "./components/alt-screen-header.css";
-@import "./screen/chat.css";
+@import "./components/no-mobile.css";
 
 /* Screen */
 @import "./screen/login.css";
@@ -17,6 +17,7 @@
 @import "./screen/find.css";
 @import "./screen/more.css";
 @import "./screen/settings.css";
+@import "./screen/chat.css";
 
 body {
   font-family: Arial, sans-serif;
@@ -34,9 +35,13 @@ a {
 
 .main-screen {
   padding: 0 var(--horizental-space);
-  height: 110vh;
+  
 }
 
 .screen-header__icons span {
   position: relative;
+}
+
+.open-chat {
+  height: 60vh;
 }
